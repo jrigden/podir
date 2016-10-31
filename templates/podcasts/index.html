@@ -1,0 +1,128 @@
+{% extends 'podcasts/base.html' %}
+
+{% block content %}
+<div class="row">
+    <h1 class="text-center">Search Episodes</h1>
+    <form type="get" action="/search">
+        <div class="form-group">
+            <input class="form-control" id="id_q" name="q" type="search" value="{{query}}">
+        </div>
+        <button type="submit" class="btn btn-primary center-block">Search Podcast</button>
+
+    </form>
+</div>
+
+
+
+
+<div class="row">
+    <h2 class="text-center">Directory</h2>
+
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/arts">Arts</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/business">Business</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/comedy">Comedy</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/society-culture">Culture</a>
+        </p>
+    </div>
+
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/food">Food</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/government-organizations">Government</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/health">Health</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/games-and-hobbies">Hobbies</a>
+        </p>
+    </div>
+
+
+
+
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/music">Music</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/news-politics">News</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/religion-spirituality">Religion</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/science-medicine ">Science</a>
+        </p>
+    </div>
+
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/technology">Technology</a>
+        </p>
+    </div>
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/tv-film">TV and Film</a>
+        </p>
+    </div>
+
+
+    <div class="col-md-4 col-xs-6">
+        <p class="text-center">
+            <a href="/category/video-games">Video Games</a>
+        </p>
+    </div>
+
+</div>
+<div class="row">
+    <h2 class="text-center">Meta</h2>
+
+    <p class="text-center">
+        <a href="/stats">Stats</a>
+    </p>
+
+</div>
+{% endblock %}

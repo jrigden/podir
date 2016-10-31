@@ -1,0 +1,199 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/static/fonts/Open-Sans-regular.woff');
+}
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('/static/fonts/bebas-neue-bold.woff');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    overflow-x: scroll;
+}
+
+nav {
+    font-family: BebasNeueBold;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: BebasNeueBold;
+}
+
+a.navbar-brand {
+    font-size: 200%;
+}
+
+#cc-license {
+    font-size: 50%
+}
+
+#amazon-ads {
+    padding: 1em;
+    text-align: center;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  padding: 1em;
+}
+
+.post-header {
+    font-family: BebasNeueBold;
+}
+
+.post-header h1 {
+    margin-bottom: : 0;
+}
+
+.post-body p {
+    text-align: justify;
+}
+
+.post-summary p {
+    text-align: justify;
+}
+
+.post-footer {
+    text-align: center;
+    font-family: BebasNeueBold;
+}
+
+#podcast-subscribe {
+    padding-top: 1em;
+}
+
+.episodes {
+    text-align: center;
+}
+
+.btn {
+    font-family: BebasNeueBold;
+}
+
+.podlove-subscribe-button-123abc {
+    font-size: 150%;
+    width: 100%;
+}
+
+pre {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+#index-header {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.post {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+html {
+min-height: 101%;
+}
+/* ==========================================================================
+   embed
+   ========================================================================== */
+.embed-container {
+  margin-bottom: 1em;
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ==========================================================================
+        social
+        ========================================================================== */
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.fa-facebook, .fa-facebook-square {
+    color: #3b5998
+}
+
+.fa-twitter, .fa-twitter-square {
+    color: #00aced
+}
+
+.fa-google-plus, .fa-google-plus-square {
+    color: #dd4b39
+}
+
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
+}
+
+.fa-tumblr, .fa-tumblr-square {
+    color: #32506d
+}
+
+.fa-vine {
+    color: #00bf8f
+}
+
+.fa-flickr {
+    color: #ff0084
+}
+
+.fa-vimeo-square {
+    color: #aad450
+}
+
+.fa-pinterest, .fa-pinterest-square {
+    color: #cb2027
+}
+
+.fa-linkedin, .fa-linkedin-square {
+    color: #007bb6
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-spotify {
+    color: #1ED760;
+}
